@@ -1,4 +1,13 @@
 workflows:
-  root2:
+  setup:
+    steps:
+    - script@1: {}
+  deploy:
+    after_run:
+    - test                 # defined in bitrise.yml → GHOST + jump (reverse direction)
     steps:
     - deploy-to-bitrise-io@2: {}
+step_bundles:
+  shared:
+    steps:
+    - script@1: {}
