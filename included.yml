@@ -1,0 +1,4 @@
+workflows:
+  root2:
+    steps:
+    - deploy-to-bitrise-io@2: {}
