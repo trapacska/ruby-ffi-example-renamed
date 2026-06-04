@@ -11,6 +11,7 @@ pipelines:
     workflows:
       build: {} # defined here (local)
       deploy: {} # defined in included.yml → GHOST + jump
+      new: {}
 step_bundles:
   common:
     steps:
