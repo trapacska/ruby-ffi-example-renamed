@@ -5,6 +5,7 @@ project_type: other
 
 include:
 - path: included.yml
+- path: test.yml
 
 pipelines:
   release:

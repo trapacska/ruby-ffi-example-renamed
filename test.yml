@@ -1,0 +1,4 @@
+workflows:
+  test_from_test_yml:
+    steps:
+    - script@1: {}
