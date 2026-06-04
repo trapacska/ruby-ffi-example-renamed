@@ -19,6 +19,7 @@ step_bundles:
     - script@1:
         title: 'test'
 workflows:
+  new: {}
   build:
     before_run:
     - setup #                defined in included.yml → GHOST + jump. test

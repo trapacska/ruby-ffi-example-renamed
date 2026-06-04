@@ -11,7 +11,7 @@ workflows:
     - test #            test defined in bitrise.yml → GHOST + jump (reverse direction)               test
     steps:
     - deploy-to-bitrise-io@2: {}
-  new: {}
+
 step_bundles:
   shared:
     steps:
