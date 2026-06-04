@@ -5,10 +5,10 @@ workflows:
         title: test push
   deploy:
     after_run:
-    - test # defined in bitrise.yml → GHOST + jump (reverse direction)
+    - test #            test defined in bitrise.yml → GHOST + jump (reverse direction)               test
     steps:
     - deploy-to-bitrise-io@2: {}
 step_bundles:
   shared:
     steps:
-    - script@1: {}
+    - script@1: {} #           also test

@@ -18,7 +18,7 @@ step_bundles:
 workflows:
   build:
     before_run:
-    - setup # defined in included.yml → GHOST + jump
+    - setup #                defined in included.yml → GHOST + jump. test
     steps:
     - bundle::common:
         title: common new
