@@ -1,3 +1,6 @@
+include:
+- path: new.yml
+
 workflows:
   setup:
     steps:
@@ -11,4 +14,4 @@ workflows:
 step_bundles:
   shared:
     steps:
-    - script@1: {} #           also test
+    - script@1: {} #           also test. k
