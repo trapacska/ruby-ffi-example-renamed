@@ -27,7 +27,9 @@ workflows:
     - bundle::common:
         title: common new
         # local step bundle
-    - bundle::shared: {} # defined in included.yml → GHOST + jump
+    - bundle::shared:
+        title: title
+        # defined in included.yml → GHOST + jump
   test:
     steps:
     - script@1: {}

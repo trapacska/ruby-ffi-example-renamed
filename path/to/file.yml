@@ -6,3 +6,6 @@ workflows:
     - test: krisz
       opts:
         is_expand: false
+include:
+- path: bitrise.yml
+  branch: config-change
