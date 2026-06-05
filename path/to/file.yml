@@ -1,0 +1,8 @@
+# path/to/file.yml
+
+workflows:
+  deploy:
+    envs:
+    - test: krisz
+      opts:
+        is_expand: false

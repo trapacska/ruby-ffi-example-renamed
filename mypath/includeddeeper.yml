@@ -2,3 +2,5 @@
 
 workflows:
   deploy: {}
+include:
+- path: path/to/file.yml
