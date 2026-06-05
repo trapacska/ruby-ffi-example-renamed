@@ -1,0 +1,4 @@
+# mypath/includeddeeper.yml
+
+workflows:
+  deploy: {}

@@ -1,5 +1,6 @@
 include:
 - path: new.yml
+- path: mypath/includeddeeper.yml
 
 workflows:
   setup:
