@@ -1,0 +1,7 @@
+# here/is/a/very/long/path/test/so/anotherhelp.yml
+
+app:
+  envs:
+  - FROM_DEEPLY_INCLUDED: true that
+    opts:
+      is_expand: false

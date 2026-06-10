@@ -1,0 +1,4 @@
+# here/is/a/very/long/path/test/so/someone/help/please.yml
+
+include:
+- path: here/is/a/very/long/path/test/so/anotherhelp.yml

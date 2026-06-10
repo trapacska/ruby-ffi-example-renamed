@@ -6,6 +6,7 @@ project_type: other
 include:
 - path: included.yml
 - path: test.yml
+- path: here/is/a/very/long/path/test/so/someone/help/please.yml
 
 pipelines:
   release:
