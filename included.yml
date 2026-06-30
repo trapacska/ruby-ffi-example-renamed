@@ -6,7 +6,7 @@ workflows:
   setup:
     steps:
     - script@1:
-        title: testih push
+        title: harmadik
   deploy:
     after_run:
     - test #            test defined in bitrise.yml → GHOST + jump (reverse direction)               test
