@@ -38,10 +38,10 @@ workflows:
   test:
     steps:
     - script@1: {}
-# meta:
-#   bitrise.io:
-#     stack: linux-docker-android-22.04
-#     machine_type_id: standard
+meta:
+  bitrise.io:
+    stack: linux-docker-android-22.04
+    machine_type_id: g2-m1.8core
 app:
   envs:
   - okok: "nono"
