@@ -3,10 +3,10 @@ format_version: '13'
 default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: other
 
-include:
-- path: included.yml
-- path: test.yml
-- path: here/is/a/very/long/path/test/so/someone/help/please.yml
+# include:
+# - path: included.yml
+# - path: test.yml
+# - path: here/is/a/very/long/path/test/so/someone/help/please.yml
 
 pipelines:
   release:
